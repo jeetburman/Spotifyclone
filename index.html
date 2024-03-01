@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotifyclone - Web Player:Music for all</title>
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" href="/photos/Spotify_favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="side-top">
+        <div class="logo">
+            <span><i class="fa-brands fa-spotify"></i> Spotify</span>
+        </div>
+
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href=""><span><i class="fa-solid fa-house"></i>Home</span></a>
+                </li>
+                <li>
+                    <a href="" id="search"><span><i class="fa-solid fa-magnifying-glass"></i>Search</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+
+    <div class="side-bottom">
+        <div class="library">
+            <ul>
+                <li id="lib"><span><i class="fa-solid fa-swatchbook"></i>Your Library</span></li>
+                <li id="plus"><span><i class="fa-solid fa-plus"></i></span></li>
+            </ul>
+            <div class="create">
+                <h3>Create your first playlist</h3>
+                <h4>It's easy we will help you</h4>
+                <button id="button">Create Playlist</button>
+            </div>
+        </div>
+        <ul id="privacy">
+            <li>Legal</li>
+            <li>Safety & Privacy Center</li>
+            <li>Privacy Policy</li>
+        </ul>
+
+        <ul id="ads">
+            <li>Cookies</li>
+            <li>About Ads</li>
+            <li>Accessibility</li>
+        </ul>
+
+        <button id="language"><i class="fa-solid fa-globe"></i>English</button>
+        
+    </div>
+
+<div class="main">
+    <div class="topnav">
+        <div class="prev-next-buttons">
+            <button><i class="fa-solid fa-chevron-left"></i></button>
+            <button><i class="fa-solid fa-chevron-right"></i></button>
+             </div>
+        
+             <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="">Premium</a>
+                    </li>
+                    <li>
+                        <a href="">Support</a>
+                    </li>
+                    <li>
+                        <a href="">Download</a>
+                    </li>
+                    <a href="" id="bar">|</a>
+                    <li>
+                        <a href="">Sign Up</a>
+                    </li>
+                </ul>
+                <button type="button">Login</button>
+            </div>
+        </div>  
+        
+        <div class="spotify-playlists">
+            <h2>Spotify Playlists</h2>
+
+            <div class="list">
+
+                <div class="item">
+                    <img src="./photos/Today's Top Hits.jpg" alt="">
+                    <div class="play">
+                        <span><i id="pop" class="fa-solid fa-play"></i></span>
+                    </div>
+                    <h4>Today's Top Hits</h4>
+                    <p>Olivia Rodrigo is on the top of hottest 50!</p>
+                </div>
+
+                <div class="item">
+                    <img src="./photos/RapCaviar.jpg" alt="">
+                    <div class="play">
+                        <span><i id="pop" class="fa-solid fa-play"></i></span>  
+                    </div>
+                    <h4>RapCavier</h4>
+                    <p>New Music from Cardi B, Megan Thee Stallion an...</p>
+                </div>
+
+                <div class="item">
+                    <img src="./photos/All Out 2010s.jpg" alt="">
+                    <div class="play">
+                        <span><i id="pop" class="fa-solid fa-play"></i></span>  
+                    </div>
+                    <h4>All Out 2010s</h4>
+                    <p>The biggest hits of 2010</p>
+                </div>
+
+                <div class="item">
+                    <img src="./photos/Chill Hits.jpg" alt="">
+                    <div class="play">
+                        <span><i id="pop" class="fa-solid fa-play"></i></span>  
+                    </div>
+                    <h4>Chill Hits</h4>
+                    <p>Kick back to the best new and recent chill hits</p>
+                </div>
+
+                <div class="item">
+                    <img src="./photos/Viva Latino.jpg" alt="">
+                    <div class="play">
+                        <span><i id="pop" class="fa-solid fa-play"></i></span>  
+                    </div>
+                    <h4>Viva Latino</h4>
+                    <p>Today's top latin hits elevando nuestra...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="Focus">
+            <h2>Focus</h2>
+            <div class="list">
+
+                <div class="item">
+                    <img src="./photos/Instrumental Study.jpg" alt="">
+                    <div class="play">
+                        <span><i id="pop" class="fa-solid fa-play"></i></span>  
+                    </div>
+                    <h4>Instrumental study</h4>
+                    <p>Focus with soft study music in background.</p>
+                </div>
+
+                <div class="item">
+                    <img src="./photos/Beats to think to.jpg" alt="">
+                    <div class="play">
+                        <span><i id="pop" class="fa-solid fa-play"></i></span>  
+                    </div>
+                    <h4>Beats to think to</h4>
+                    <p>Focus with melodic techno and tech house</p>
+                </div>
+
+                <div class="item">
+                    <img src="./photos/Reading Adventure.jpg" alt="">
+                    <div class="play">
+                        <span><i id="pop" class="fa-solid fa-play"></i></span>  
+                    </div>
+                    <h4>Reading Adventures</h4>
+                    <p>Scores and soundtracks for daring quests, epic....</p>
+                </div>
+
+                <div class="item">
+                    <img src="./photos/Workday Lounge.jpg" alt="">
+                    <div class="play">
+                        <span><i id="pop" class="fa-solid fa-play"></i></span>  
+                    </div>
+                    <h4>Workday Lounge </h4>
+                    <p>Lounge and chill out music for your Workday</p>
+                </div>
+
+                <div class="item">
+                    <img src="./photos/Deep Focus.jpg" alt="">
+                    <div class="play">
+                        <span><i id="pop" class="fa-solid fa-play"></i></span>  
+                    </div>
+                    <h4>Deep Focus</h4>
+                    <p>Keep calm and focus with ambient and post....</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="sound">
+            <h2>Sound of India</h2>
+
+            <div class="list">
+
+                <div class="item">
+                    <img src="./photos/The Sound of Delhi.jpg" alt="">
+                    <div class="play">
+                        <span><i id="pop" class="fa-solid fa-play"></i></span>  
+                    </div>
+                    <h4>The Sound of Delhi</h4>
+                    <p>The songs that define, unite and distinguish...</p>
+                </div>
+
+                <div class="item">
+                    <img src="./photos/The Sound of Kolkata.jpg" alt="">
+                    <div class="play">
+                        <span><i id="pop" class="fa-solid fa-play"></i></span>  
+                    </div>
+                    <h4>The Sound of Kolkata</h4>
+                    <p>The songs that define, unite and distinguish...</p>
+                </div>
+
+                <div class="item">
+                    <img src="./photos/The Sound of Hyderabad.jpg" alt="">
+                    <div class="play">
+                        <span><i id="pop" class="fa-solid fa-play"></i></span>  
+                    </div>
+                    <h4>The Sound of Hyderabad</h4>
+                    <p>The songs that define, unite and distinguish...</p>
+                </div>
+
+                <div class="item">
+                    <img src="./photos/The Sound of Bengaluru.jpg" alt="">
+                    <div class="play">
+                        <span><i id="pop" class="fa-solid fa-play"></i></span>  
+                    </div>
+                    <h4>The Sound of Bengaluru</h4>
+                    <p>The songs that define, unite and distinguish...</p>
+                </div>
+
+                <div class="item">
+                    <img src="./photos/The Sound of Mumbai.jpg" alt="">
+                    <div class="play">
+                        <span><i id="pop" class="fa-solid fa-play"></i></span>  
+                    </div>
+                    <h4>The Sound of Mumbai</h4>
+                    <p>The songs that define, unite and distinguish...</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="base">
+            <ul>
+               <a href="">Company</a>
+                <li>About</li>
+                <li>Jobs</li>
+                <li>For the Record</li>
+            </ul>
+
+            <ul>
+                <a href="">Communities</a>
+                <li>Artists</li>
+                <li>Developers</li>
+                <li>Advertising </li>
+                <li>Investors</li>
+                <li>Vendors</li>
+            </ul>
+
+            <ul>
+                <a href="">Useful Links</a>
+                <li>Support</li>
+                <li>Free Mobile App</li>
+            </ul>
+
+            <div class="social">
+                <ul>
+                    <li><span><i class="fa-brands fa-instagram"></i></span></li>
+                    <li><span><i class="fa-brands fa-twitter"></i></span></li>
+                    <li><span><i class="fa-brands fa-facebook"></i></span></li>
+                </ul>
+             </div>
+    </div>
+
+    <hr>
+
+    <div class="year"><p>&copy;2024 Spotify AB</p></div>
+
+    </div>
+
+    <div class="preview">
+        <div class="text">
+            <h6>Preview of Spotify</h6>
+            <p>Sign up and get unlimited songs and podcasts with occasional ads. No credit card needed</p>
+        </div>
+        <button type="button">Sign up free</button>
+    </div>
+
+    <!-- -------------------------------------------------------------------------------------------------------- -->
+
+<div class="ph-nav">
+
+        <div class="ph-logo">
+            <i class="fa-brands fa-spotify"></i>
+        </div>
+
+        <div class="ph-bar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <button>Open App</button>
+        <i class="fa-solid fa-bars"></i>
+        </div>
+
+</div>
+
+
+<div class="ph-main">
+    <h3>Spotify Playlists</h3>
+
+    <div class="ph-list">
+       <div class="box1"></div>
+       <div class="box2"></div>
+       <div class="box3"></div>
+    </div>
+
+
+    <div class="ph-list">
+        <div class="box4"></div>
+        <div class="box5"></div>
+        <div class="box6"></div>
+    </div>
+
+    <h3>Focus</h3>
+    <div class="ph-list">
+
+   
+    <div class="box7"></div>
+    <div class="box8"></div>
+    <div class="box9"></div>
+    </div>
+
+    <h3>Sound of India</h3>
+    <div class="ph-list">
+    <div class="box10"></div>
+    <div class="box11"></div>
+    <div class="box12"></div>
+    </div>
+</div>
+
+<div class="ph-base">
+    <ul>
+        <a href="">Company</a>
+         <li>About</li>
+         <li>Jobs</li>
+         <li>For the Record</li>
+     </ul>
+
+     <ul>
+        <a href="">Communities</a>
+        <li>Artists</li>
+        <li>Developers</li>
+        <li>Advertising </li>
+        <li>Investors</li>
+        <li>Vendors</li>
+    </ul>
+
+    <ul>
+        <a href="">Useful Links</a>
+        <li>Support</li>
+        <li>Free Mobile App</li>
+    </ul>
+
+    <div class="ph-social">
+        <div class="fb"><i class="fa-brands fa-instagram"></i></div>
+        <div class="fb"><i class="fa-brands fa-twitter"></i></div>
+        <div class="fb"><i class="fa-brands fa-facebook"></i></div>
+    </div>
+    <hr>
+
+<div class="ph-lower">
+    <ul id="ph-privacy">
+        <li>Legal</li>
+        <li>Safety & Privacy Center</li>
+        <li>Privacy Policy</li>
+    </ul>
+
+    <ul id="ph-ads">
+        <li>Cookies</li>
+        <li>About Ads</li>
+        <li>Accessibility</li>
+    </ul>
+
+    <p class="ph-year">&copy;2024 Spotify AB</p>
+
+    <button id="ph-language"><i class="fa-solid fa-globe"></i>English</button>
+
+</div>
+
+</div>
+</body>
+</html>
